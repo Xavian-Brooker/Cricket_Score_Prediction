@@ -7,6 +7,13 @@ This repository contains a set of different RNN algorithms mainly **single and m
 - Dataset Used (`.csv`)
 - Loss curve (`.jpg`)
 
-## Algorithms
+## ALGORITHMS
 ### Vanilla_RNN_v1
-This algorithm consists of a single `LSTM` & a `Dense` layer with a single input feature that is the total runs at the current timestep and predicts the total runs at the next timestep.   
+This algorithm consists of a single `LSTM` & a `Dense` layer with a single input feature that is the total runs at the current timestep and predicts the total runs at the next timestep. It was trained on 197944 training samples and 97495 validation samples.
+
+![Training and Test Loss](https://github.com/Xavian-Brooker/Cricket_Score_Prediction/branch/path/to/img.png)
+**Hyper-Parameters**
+1. Look Back = 1
+2. Epochs = 5
+3. Batch Size = 30
+
