@@ -9,4 +9,9 @@ This repository contains a set of different RNN algorithms mainly **single and m
 
 ## ALGORITHMS
 ### Vanilla_RNN_v1
-This algorithm consists of a single `LSTM` & a `Dense` layer with a single input feature that is the total runs at the current timestep and predicts the total runs at the next timestep.   
+This algorithm consists of a single `LSTM` & a `Dense` layer with a single input feature that is the total runs at the current timestep and predicts the total runs at the next timestep.  
+
+**Hyper-Parameters**
+1. Look Back = 1
+2. Epochs = 5
+3. Batch Size = 30
