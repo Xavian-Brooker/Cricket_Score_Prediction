@@ -14,7 +14,7 @@ This algorithm consists of a single `LSTM` & a `Dense` layer with a single input
 ![Training and Test Loss](https://github.com/Xavian-Brooker/Cricket_Score_Prediction/blob/master/vanilla_RNNs/v1/loss_comparision.png)
 
 **Hyper-Parameters**
-1. Look Back = 1
-2. Epochs = 5
-3. Batch Size = 30
+- Look Back = 1
+- Epochs = 5
+- Batch Size = 30
 
