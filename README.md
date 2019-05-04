@@ -17,19 +17,15 @@ This algorithm consists of a single `LSTM` & a `Dense` layer with a single input
 - Look Back = 1
 - Epochs = 5
 - Batch Size = 30
-### Decision_Prediction_Models_v1
-This notebook consists a set of Machine Learning algorithm to predict the probability of a team to either win or loose the match depending on the given input data such as the organiser team, ground, which team is playing the first and second innings etc. 
+### Decision_Prediction_Models
+This notebook consists a Machine Learning algorithm to predict the probability of a team to either win or loose the match depending on the given input data such as the organiser team, ground, which team is playing the first and second innings etc. 
 
-The models that were used were - 
-- **XGBoost** : XGBoost is an optimized distributed gradient boosting library which is used to create an alorithm similar to parallel decision trees.
-- **Logistic Regression** : Logistic Regression is a predictive modelling algorithm that is used when the Y variable is binary categorical, i.e 0 or 1
-- **Support Vector Machine** : Support Vecotr Machines are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis.
-- **Neural Network** : Complex Deep Learning Models that are artificial mapping of Biological Neural Architechture that are most commonly used for big and complex problems.
+The Neural Network Trained well and with nearly 71% accuracy, its able to predict the outcome of the match by just the match's metadata.
+
+Other models were also used for the same but didn't prove to be satisfactory - 
 
 These were the model accuracies after training - 
 - XGBoost : 61 %
 - Logistic Regression - 53 %
-- Neural Network - 51%
 - Support Vector Machines - 52%
 
-The accuracies of the models were unsatisfactory.
